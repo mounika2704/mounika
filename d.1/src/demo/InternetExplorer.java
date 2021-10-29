@@ -11,11 +11,13 @@ public class InternetExplorer
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.ie.driver","C:\\Users\\jashwanth reddy\\Downloads\\IEDriverServer_x64_3.150.2\\IEDriverServer.exe");
         WebDriver driver = new InternetExplorerDriver();
-        driver.get("https://demoqa.com/forms");
+        wwebdriverma
         
+        //driver.get("https://demoqa.com/forms");
+         
         
         driver.close();
         driver.quit();
 	}
-
+ 
 }
